@@ -1,3 +1,4 @@
+Question 1 
 An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.
 
 In the Gregorian calendar, three conditions are used to identify leap years:
@@ -41,9 +42,8 @@ Explanation 0
 
 
 
-
-
-he included code stub will read an integer, , from STDIN.
+Question 2
+The included code stub will read an integer, , from STDIN.
 
 Without using any string methods, try to print the following:
 
@@ -95,7 +95,7 @@ Could not connect to the reCAPTCHA service. Please check
 
 
 
-
+Question 3
 You are given a positive integer . Print a numerical triangle of height  like the one below:
 
 1
