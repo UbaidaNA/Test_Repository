@@ -1,0 +1,175 @@
+An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.
+
+In the Gregorian calendar, three conditions are used to identify leap years:
+
+The year can be evenly divided by 4, is a leap year, unless:
+The year can be evenly divided by 100, it is NOT a leap year, unless:
+The year is also evenly divisible by 400. Then it is a leap year.
+This means that in the Gregorian calendar, the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years. Source
+
+Task
+
+Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, otherwise return False.
+
+Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. It is only necessary to complete the is_leap function.
+
+Input Format
+
+Read , the year to test.
+
+Constraints
+
+
+Output Format
+
+The function must return a Boolean value (True/False). Output is handled by the provided code stub.
+
+Sample Input 0
+
+1990
+Sample Output 0
+
+False
+Explanation 0
+
+1990 is not a multiple of 4 hence it's not a leap year.
+
+
+
+
+
+
+
+
+
+
+he included code stub will read an integer, , from STDIN.
+
+Without using any string methods, try to print the following:
+
+
+Note that "" represents the consecutive values in between.
+
+Example
+
+Print the string .
+
+Input Format
+
+The first line contains an integer .
+
+Constraints
+
+
+Output Format
+
+Print the list of integers from  through  as a string, without spaces.
+
+Sample Input 0
+
+3
+Sample Output 0
+
+123
+Language
+Pypy 3
+More
+123456
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1):
+        print(i,end="")
+        
+        
+Line: 5 Col: 9
+
+Test against custom input
+Started
+Test case 0
+Test case 1
+Test case 2
+BlogScoringEnvironmentFAQAbout UsSupportCareersTerms Of ServicePrivacy Policy
+Could not connect to the reCAPTCHA service. Please check
+
+
+
+
+
+
+You are given a positive integer . Print a numerical triangle of height  like the one below:
+
+1
+22
+333
+4444
+55555
+......
+Can you do it using only arithmetic operations, a single for loop and print statement?
+
+Use no more than two lines. The first line (the for statement) is already written for you. You have to complete the print statement.
+
+Note: Using anything related to strings will give a score of .
+
+Input Format
+A single line containing integer, .
+
+Constraints
+
+Output Format
+Print  lines as explained above.
+
+Sample Input
+
+5
+Sample Output
+
+1
+22
+333
+4444
+Language
+Pypy 3
+More
+12
+for i in range(1, int(input())):
+    print(10**i//9*i)
+Line: 2 Col: 22
+
+Test against custom input
+Congratulations!
+
+You have passed the sample test cases. Click the submit button to run your code against all the test cases.
+
+
+Sample Test case 0
+Compiler Message
+Success
+Input (stdin)
+5
+Your Output (stdout)
+1
+22
+333
+4444
+Expected Output
+1
+22
+333
+4444
+BlogScoringEnvironmentFAQAbout UsSupportCareersTerms Of ServicePrivacy Policy
+Could not connect to the reCAPTCHA service. Ple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
